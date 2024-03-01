@@ -20,6 +20,13 @@
 <source>${java.version}</source>
 <target>${java.version}</target>
 </configuration>
+<configuration>
+  <archive>
+    <manifest>
+      <mainClass>Main.java</mainClass>
+    </manifest>
+  </archive>
+</configuration>
 </plugin>
 </plugins>
 </build>
