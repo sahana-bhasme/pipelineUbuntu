@@ -23,7 +23,8 @@
 <configuration>
   <archive>
     <manifest>
-      <mainClass>Main.java</mainClass>
+      <addClasspath>true</addClasspath>
+      <mainClass>Main.class</mainClass>
     </manifest>
   </archive>
 </configuration>
